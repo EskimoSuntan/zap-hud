@@ -6,7 +6,7 @@ var toolScripts = [
 
 importScripts(ZAP_HUD_FILES + "?name=libraries/localforage.min.js"); 
 importScripts(ZAP_HUD_FILES + "?name=libraries/vue.min.js"); 
-importScripts(ZAP_HUD_FILES + "?name=libraries/vue-i18n.js"); 
+importScripts(ZAP_HUD_FILES + "?name=libraries/vue-i18n.min.js"); 
 importScripts(ZAP_HUD_FILES + "?name=i18n.js");
 importScripts(ZAP_HUD_FILES + "?name=utils.js");
 importScripts(ZAP_HUD_FILES + "?name=tools/utils/alertUtils.js");
@@ -20,7 +20,7 @@ var webSocketCallbackId = 0;
 var urlsToCache = [
 	ZAP_HUD_FILES + "?name=libraries/localforage.min.js",
 	ZAP_HUD_FILES + "?name=libraries/vue.min.js",
-	ZAP_HUD_FILES + "?name=libraries/vue-i18n.js",
+	ZAP_HUD_FILES + "?name=libraries/vue-i18n.min.js",
 	ZAP_HUD_FILES + "?name=i18n.js",
 	ZAP_HUD_FILES + "?name=utils.js",
 	ZAP_HUD_FILES + "?name=panel.html",
